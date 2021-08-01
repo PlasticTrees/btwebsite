@@ -1,3 +1,0 @@
-# btwebsite
-
-Website for BeautyTruth

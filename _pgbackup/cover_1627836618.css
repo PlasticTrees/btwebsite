@@ -1,0 +1,68 @@
+/*
+ * Globals
+ */
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+/*
+ * Base structure
+ */
+body {
+}
+
+.cover-container {
+}
+
+.px-3 {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 25rem;
+  left: 0;
+  height: 15rem;
+}
+
+.btLogo {
+    height: 15rem;
+}
+
+.btText {
+  height: 5rem;
+}
+
+.line-1{
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 2s steps(20) 1s 1 normal both,
+             blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 12em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+/*
+ * Header
+ */
